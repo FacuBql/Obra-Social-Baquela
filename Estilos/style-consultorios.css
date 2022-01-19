@@ -1,0 +1,24 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+
+header {
+    background-color:rgb(230, 17, 17) ;
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: x-large;
+    border-bottom: 4px solid black;
+}
+/* Fin de header */
+
+.section-cons-1 {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+/* Header */
+header {
+    background-color: rgb(230, 17, 17);
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: x-large;
+    border-bottom: 4px solid black;
+}
+/* Fin de header */
+
+.section-er-1 {
+    background-color: whitesmoke;
+    color: black;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+} 
+
+h5 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+    text-decoration-line: underline;
+    color: black;
+}
+
+.uye-description {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.triage {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 15px;
+}
+
+img {
+    padding: 10px;
+    width: 50%;
+    height: 50%;
+}

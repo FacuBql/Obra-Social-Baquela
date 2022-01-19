@@ -1,0 +1,44 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Header */
+header {
+    background-color:rgb(230, 17, 17) ;
+    color: whitesmoke;
+    text-align: left;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: x-large;
+    border-bottom: 4px solid black;
+}
+
+/* Fin de header */
+
+.section-ap-1 {
+    background-color: whitesmoke;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.img-atp {
+   background-color: whitesmoke;
+}
+
+h5 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.contacto-atp {
+    background-color: whitesmoke;
+    color: black;
+    font-size: medium;
+    font-family: 'Inter', sans-serif;   
+}
