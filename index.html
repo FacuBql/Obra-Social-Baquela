@@ -16,6 +16,8 @@
 
     <link rel="stylesheet" href="Estilos/style-index.css">
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>
         Umbrella Corporation Healthcare
     </title>
@@ -25,7 +27,8 @@
 
  <header>
 
-     <img src="imagenes/uc-logo.png" height="250" width="250" alt="umbrella logo">
+     <img src="imagenes/uc-logo.png" height="250" width="250" alt="umbrella logo"
+     data-aos="zoom-in" >
             <h1>
                UMBRELLA HEALTHCARE
             </h1>
@@ -45,7 +48,10 @@
 
  <section class="section-1">
 
- <img src="imagenes/doctor.jpg" height="400" width="700" alt="doctor">
+ <img src="imagenes/doctor.jpg" height="400" width="700" alt="doctor"
+ data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
  <!-- Descripción de la empresa y los servicios prestados por la misma -->
 
@@ -109,17 +115,26 @@
          </section>
 
  <footer>
-    <section class="section-3">
+    <section class="section-3" data-aos="fade-left"
+    data-aos-anchor="#example-anchor"
+    data-aos-offset="500"
+    data-aos-duration="500">
  
     <h5>
     Contacto
    </h5>
  
-   <p class="telefono">
+   <p class="telefono" data-aos="fade-left"
+   data-aos-anchor="#example-anchor"
+   data-aos-offset="500"
+   data-aos-duration="500">
     <h4>Teléfono:</h4> 3364-445096/3364-4429700
    </p>
  
-   <p class="mail">
+   <p class="mail" data-aos="fade-left"
+   data-aos-anchor="#example-anchor"
+   data-aos-offset="500"
+   data-aos-duration="500">
     <h4>Mail:</h4> atencion.publico@umbrella.com.ar
    </p>
 
@@ -137,6 +152,10 @@
 
  </footer>
 
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
  </body>
  </html>

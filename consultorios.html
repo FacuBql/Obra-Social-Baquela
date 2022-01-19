@@ -14,6 +14,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="Estilos/style-consultorios.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
     
     <title>Consultorios externos</title>
@@ -39,8 +41,15 @@ de un turno para los mismos -->
    de tu salud.
 </p>
 
-<img src="Imagenes/consultorio-1.jpg" height="300" width="100%" alt="">
-<img src="Imagenes/consultorio-2.jpg" height="300" width="100%" alt="">
+<img src="Imagenes/consultorio-1.jpg" height="300" width="100%" alt=""
+data-aos="fade-right"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
+
+<img src="Imagenes/consultorio-2.jpg" height="300" width="100%" alt=""
+data-aos="fade-left"
+     data-aos-offset="300"
+     data-aos-easing="ease-in-sine">
 
 </section>
 
@@ -48,5 +57,11 @@ de un turno para los mismos -->
 para sacar turno, el cual lista los diferentes
 especialistas para consultorio -->
 
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  
 </body>
 </html>
