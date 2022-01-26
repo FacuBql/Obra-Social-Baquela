@@ -32,6 +32,7 @@ h5 {
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
     font-weight: bolder;
+    background-color: whitesmoke;
 }
 
 .contacto-atp {
@@ -39,4 +40,8 @@ h5 {
     color: black;
     font-size: medium;
     font-family: 'Inter', sans-serif;   
+}
+
+footer {
+    background-color: whitesmoke;
 }

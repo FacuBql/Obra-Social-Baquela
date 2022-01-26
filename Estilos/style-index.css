@@ -17,7 +17,6 @@
     font-size: x-large;
     border-bottom: solid 2px black;
 }
-
 /* Fin Header*/
 
 /* Index body */
@@ -55,11 +54,9 @@
     font-weight: bold;
     font-size: x-large;
 }
-
 /* Fin index body */
 
 /* Footer */
-
 h5 {
     font-family: var(--fonts-title);
     font-size: x-large;
