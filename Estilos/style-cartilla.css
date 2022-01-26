@@ -100,3 +100,32 @@ footer {
     .div54 { grid-area: 12 / 4 / 13 / 5; border: 2px solid black;}
     .div55 { grid-area: 13 / 4 / 14 / 5; border: 2px solid black;}
     .div56 { grid-area: 14 / 4 / 15 / 5; border: 2px solid black;}
+
+/** Media queries **/
+
+/* Mobile */
+
+@media only screen and (max-width: 480px) {
+    body {
+        background-color: whitesmoke;
+        font-size: 16px;
+    }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 481px) and (max-width: 968px) {
+    body {
+        background-color: whitesmoke;
+        font-size: 28px;
+    }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 969px) {
+    body {
+        background-color: whitesmoke;
+        font-size: 44px;
+    }
+}
