@@ -1,74 +1,19 @@
-* {
-    margin: 0%;
-    padding: 0%;
-}
-/* Header */
-.bg-cbcolor {
-    background-color: whitesmoke;
-    border-bottom: solid 2px black;
-    font-size: 2em;
-    font-weight: bolder;
-    font-family: 'Bebas Neue', cursive;
-}
-/* Fin de header */
-
-.section-er-1 {
-    background-color: whitesmoke;
-    color: black;
-    font-size: x-large;
-    font-family: 'Inter', sans-serif;
-} 
-
-h5 {
-    font-family: 'Bebas Neue', cursive;
-    font-size: x-large;
-    font-weight: bolder;
-    text-decoration-line: underline;
-    color: black;
-    padding: 5px;
+header {
+  background-color: whitesmoke;
+  color: black;
+  padding: 2px;
+  font-size: xx-large;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
+  border-bottom: solid 2px black;
 }
 
-.uye-description {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+body {
+  background-color: whitesmoke;
 }
 
-.triage {
-    display: flex;
-    justify-content: flex-start;
-    text-align: left;
+footer {
+  background-color: whitesmoke;
 }
 
-img {
-    padding: 10px;
-}
-
-/** Media queries **/
-
-/* Mobile */
-
-@media only screen and (max-width: 480px) {
-    body {
-        background-color: whitesmoke;
-        font-size: 16px;
-    }
-}
-
-/* Tablet */
-
-@media only screen and (min-width: 481px) and (max-width: 968px) {
-    body {
-        background-color: whitesmoke;
-        font-size: 28px;
-    }
-}
-
-/* Desktop */
-
-@media only screen and (min-width: 969px) {
-    body {
-        background-color: whitesmoke;
-        font-size: 44px;
-    }
-}
+/*# sourceMappingURL=style-urgencias.css.map */
