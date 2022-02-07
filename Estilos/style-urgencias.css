@@ -16,4 +16,28 @@ footer {
   background-color: whitesmoke;
 }
 
+/* Mapa */
+.uye-description {
+  background-color: red;
+  color: whitesmoke;
+  text-align: center;
+  font-size: larger;
+}
+
+/* Extends */
+.section-er-1 {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+  font-size: x-large;
+}
+
+/* Mixins */
+.triage-img {
+  transform: translate 50%;
+  -webkit-transform: translate 50%;
+  -o-transform: translate 50%;
+  -moz-transform: translate 50%;
+}
+
 /*# sourceMappingURL=style-urgencias.css.map */

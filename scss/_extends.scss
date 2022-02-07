@@ -1,0 +1,10 @@
+%img-fijas {
+    padding: 10px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: x-large;
+}
+
+.section-er-1 {
+    @extend %img-fijas;
+}

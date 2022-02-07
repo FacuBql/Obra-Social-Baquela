@@ -1,0 +1,10 @@
+@mixin prefijos($valor) {
+    transform: $valor;
+    -webkit-transform: $valor;
+    -o-transform: $valor;
+    -moz-transform: $valor;
+}
+
+.triage-img {
+    @include prefijos(translate (50%));
+}

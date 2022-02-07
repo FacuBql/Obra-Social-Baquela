@@ -1,0 +1,13 @@
+$invert: (
+    bg-color: red,
+    text-color: whitesmoke,
+    text-size: larger,
+    text-position: center,
+);
+
+.uye-description {
+    background-color: map-get($invert, bg-color);
+    color: map-get($invert, text-color);
+    text-align: map-get($invert, text-position);
+    font-size: map-get($invert, text-size);   
+}

@@ -78,6 +78,7 @@ h5 {
     font-family: var(--fonts-title);
     text-align: right;
     padding: 30px;
+   font-size: large;
 }
 
 .section-4 {
