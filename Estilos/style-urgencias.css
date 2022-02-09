@@ -7,7 +7,12 @@ header {
   font-family: "Inter", sans-serif;
   border-bottom: solid 2px black;
 }
-
+.bg-cbcolor {
+  background-color: whitesmoke;
+  font-size: 1em;
+  font-weight: bolder;
+  font-family: 'Bebas Neue', cursive;
+}
 body {
   background-color: whitesmoke;
 }
@@ -22,14 +27,16 @@ footer {
   color: whitesmoke;
   text-align: center;
   font-size: larger;
+  font-weight: bolder;
+  font-family: "Inter", sans-serif;
 }
 
 /* Extends */
 .section-er-1 {
   padding: 10px;
-  border: 1px solid black;
   text-align: center;
   font-size: x-large;
+  font-weight: bolder;
 }
 
 /* Mixins */
@@ -38,6 +45,35 @@ footer {
   -webkit-transform: translate 50%;
   -o-transform: translate 50%;
   -moz-transform: translate 50%;
+}
+
+/* Media queries */
+
+/* Mobile */
+
+@media only screen and (max-width: 670px) {
+  body {
+      background-color: whitesmoke;
+      font-size: 16px;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  body {
+      background-color: whitesmoke;
+      font-size: 28px;
+  }
+}
+
+/* Desktop */
+
+@media only screen and (min-width: 969px) {
+  body {
+      background-color: whitesmoke;
+      font-size: 44px;
+  }
 }
 
 /*# sourceMappingURL=style-urgencias.css.map */

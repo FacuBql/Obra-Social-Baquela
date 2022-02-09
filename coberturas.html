@@ -66,13 +66,13 @@
 al igual que una tabla con los montos y un formulario de inscripción -->
 
 <section class="section-cob-1">
-    <p>
+    <p class="cob-img">
         Contamos con diversos planes y coberturas
         adaptadas a tus necesidades y bolsillo.
         ¡Comunicate con un asesor y elegí el plan hecho
         a tu medida!
     </p>
-
+    
     <img src="Imagenes/asesor.jpg" height="400" width="100%" alt=""
     data-aos="fade-down"
      data-aos-easing="linear"
@@ -108,6 +108,73 @@ al igual que una tabla con los montos y un formulario de inscripción -->
           <a href="#" class="btn btn-cardbtn">Más información</a>
         </div>
       </div>
+</section>
+
+<!--Formulario de contacto -->
+<section class="formulario">
+<form class="row g-3">
+  <div class="col-md-6">
+    <label for="inputName" class="form-label">Nombre</label>
+    <input type="name" class="form-control" id="inputName">
+  </div>
+  <div class="col-md-6">
+    <label for="inputLastname" class="form-label">Apellido</label>
+    <input type="lastname" class="form-control" id="inputLastname">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Dirección</label>
+    <input type="Direccion" class="form-control" id="inputAddress">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Ciudad</label>
+    <input type="Ciudad" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Provincia</label>
+    <select id="inputState" class="form-select">
+      <option selected>Seleccionar...</option>
+      <option>Buenos Aires</option>
+      <option selected>Capital Federal</option>
+      <option selected>Catamarca</option>
+      <option selected>Chaco</option>
+      <option selected>Chubut</option>
+      <option selected>Córdoba</option>
+      <option selected>Corrientes</option>
+      <option selected>Entre Ríos</option>
+      <option selected>Formosa</option>
+      <option selected>Jujuy</option>
+      <option selected>La Pampa</option>
+      <option selected>La Rioja</option>
+      <option selected>Mendoza</option>
+      <option selected>Misiones</option>
+      <option selected>Neuquén</option>
+      <option selected>Río Negro</option>
+      <option selected>Salta</option>
+      <option selected>San Juan</option>
+      <option selected>San Luis</option>
+      <option selected>Santa Cruz</option>
+      <option selected>Santa Fe</option>
+      <option selected>Santiago del Estero</option>
+      <option selected>Tierra del Fuego</option>
+      <option selected>Tucumán</option>
+    </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">CP</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-12">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck">
+        Quiero recibir novedades y ofertas sobre planes y servicios.
+      </label>
+    </div>
+  </div>
+  <div class="col-12">
+    <button type="enviar" class="btn btn-cardbtn">Enviar</button>
+  </div>
+</form>
 </section>
 
 

@@ -18,39 +18,35 @@
     color: black;
     text-align: center;
     font-size: x-large;
+    font-weight: bolder;
     font-family: 'Inter', sans-serif;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 10px;
 }
-
-.img-atp {
-   background-color: whitesmoke;
-}
-
 h5 {
     font-family: 'Bebas Neue', cursive;
     font-size: x-large;
     font-weight: bolder;
     background-color: whitesmoke;
+    border-bottom: 1px solid black;
 }
-
-.contacto-atp {
+.img-at {
+    background-color: whitesmoke;
+}
+footer {
     background-color: whitesmoke;
     color: black;
     font-size: medium;
-    font-family: 'Inter', sans-serif;   
-}
-
-footer {
-    background-color: whitesmoke;
+    font-weight: bolder;
+    font-family: 'Inter', sans-serif;
 }
 
 /** Media queries **/
 
 /* Mobile */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 670px) {
     body {
         background-color: whitesmoke;
         font-size: 16px;
@@ -59,7 +55,7 @@ footer {
 
 /* Tablet */
 
-@media only screen and (min-width: 481px) and (max-width: 968px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
     body {
         background-color: whitesmoke;
         font-size: 28px;
