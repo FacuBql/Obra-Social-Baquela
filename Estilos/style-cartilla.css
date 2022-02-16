@@ -6,7 +6,7 @@
 /* Header */
 .bg-cbcolor {
     background-color: whitesmoke;
-    border-bottom: solid 2px black;
+    border-bottom: solid 2px gainsboro;
     font-size: 2em;
     font-weight: bolder;
     font-family: 'Bebas Neue', cursive;
@@ -102,7 +102,101 @@ footer {
     .div55 { grid-area: 13 / 4 / 14 / 5; border: 2px solid black;}
     .div56 { grid-area: 14 / 4 / 15 / 5; border: 2px solid black;}
 
-/** Media queries **/
+
+  /* Footer */
+.site-footer
+{
+  background-color: firebrick;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color: whitesmoke;
+  border-top: 1px solid tomato;
+}
+.site-footer hr
+{
+  border-top-color: whitesmoke;
+  opacity:0.5
+}
+.site-footer hr.small
+{
+  margin:20px 0
+}
+.site-footer h6
+{
+  color: tomato;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a
+{
+  color: whitesmoke;
+}
+.site-footer a:hover
+{
+  color: tomato;
+  text-decoration:none;
+}
+.footer-links
+{
+  padding-left:0;
+  list-style:none
+}
+.footer-links li
+{
+  display:block
+}
+.footer-links a
+{
+  color:whitesmoke;
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+  color: tomato;
+  text-decoration:none;
+}
+.footer-links.inline li
+{
+  display:inline-block
+}
+.site-footer 
+{
+  text-align:left
+}
+.site-footer a
+{
+  width:40px;
+  height:40px;
+  line-height:40px;
+  margin-left:6px;
+  margin-right:0;
+  border-radius:100%;
+}
+.copyright-text
+{
+  margin:0
+}
+@media (max-width:991px)
+{
+  .site-footer [class^=col-]
+  {
+    margin-bottom:30px
+  }
+}
+@media (max-width:767px)
+{
+  .site-footer
+  {
+    padding-bottom:0
+  }
+  .site-footer .copyright-text,.site-footer
+  {
+    text-align:center
+  }
+}  
+/* Media queries */
 
 /* Mobile */
 
