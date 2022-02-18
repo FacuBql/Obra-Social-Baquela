@@ -21,6 +21,12 @@
     font-weight: bolder;
     font-family: 'Inter', sans-serif;
 }
+.consultorios-externos {
+  font-family: 'Bebas Neue', cursive;
+  font-size: large;
+  border: 2px solid black;
+  background-color: whitesmoke;
+}
 
 /* Footer */
 .site-footer

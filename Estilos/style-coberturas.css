@@ -21,23 +21,30 @@
     background-color: whitesmoke;
 }
 
-.btn-cardbtn {
-    background-color: red;
-    font-family: 'Bebas Neue', cursive;
-    color: whitesmoke;
+.card {
+  background-color: white;
 }
-
 .card-title {
     font-family: 'Bebas Neue', cursive;
     color: black;
     font-size: x-large;
     font-weight: bold;
+    background-color: white;
+}
+
+.card-text1 {
+  font-family: 'Inter', sans-serif;
+  font-size: large;
+  font-weight: bold;
+  color: black;  
+  background-color: white; 
 }
 
 .card-text {
     font-family: 'Inter', sans-serif;
     font-size: large;
-    color: black;   
+    color: black;
+    background-color: white;   
 }
 
 .planes {
@@ -54,6 +61,14 @@
     font-family: 'Inter', sans-serif;
     text-align: center;
 }
+
+.btn-cardbtn{
+  background-color: red;
+  color: whitesmoke;
+  font-family: 'Bebas Neue', cursive;
+  border: 1px solid firebrick;
+}
+
 footer {
     background-color: whitesmoke;
 }

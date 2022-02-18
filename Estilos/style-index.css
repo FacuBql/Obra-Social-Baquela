@@ -62,6 +62,14 @@
   font-weight: bold;
   font-size: x-large;
 }
+.carousel-text{
+  color: whitesmoke;
+  border-bottom: 2px solid whitesmoke;
+}
+.carousel-text-02 {
+  color: black;
+  border-bottom: 2px solid black;
+}
 
 /* Fin index body */
 

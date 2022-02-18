@@ -37,9 +37,10 @@ h5 {
 .contacto {
     background-color: whitesmoke;
     color: black;
-    font-size: medium;
+    font-size: large;
     font-weight: bolder;
     font-family: 'Inter', sans-serif;
+    padding: 10px;
 }
 
 /* Footer */
