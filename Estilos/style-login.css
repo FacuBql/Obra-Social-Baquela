@@ -31,8 +31,9 @@ body {
   font-family: 'Inter' sans-serif;
   color: firebrick;
   font-size: larger;
-  justify-content: start;
-  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
 }
 
 hr {
