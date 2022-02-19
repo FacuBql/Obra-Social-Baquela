@@ -77,7 +77,12 @@ footer {
     background-color: whitesmoke;
     font-size: medium;
     font-family: 'Bebas Neue', cursive;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+
+.row {
+  padding-left: 10px;
 }
 
 /* Footer */
