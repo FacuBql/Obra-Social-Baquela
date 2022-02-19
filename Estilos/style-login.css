@@ -29,7 +29,7 @@ body {
 
 .volver{
   font-family: 'Inter' sans-serif;
-  color: firebrick;
+  color: grey;
   font-size: larger;
   display: flex;
   justify-content: center;
