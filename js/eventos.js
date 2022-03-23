@@ -1,10 +1,38 @@
-let informationForm = document.getElementById("form");
-const validateForm = (e) => {
-  e.preventDefault();
-  console.log(e);
+const form = document.getElementById("form");
+
+const sendForm = (event) => {
+  event.preventDefault();
+  const {
+    name,
+    lastName,
+    address,
+    floorNumber,
+    deparment,
+    city,
+    state,
+    zipCode,
+    phoneNumber,
+    mail,
+    gridCheck,
+  } = event.target;
+
   console.log(
-    "El formulario ha sido enviado."
+    name.value,
+    lastName.value,
+    address.value,
+    floorNumber.value,
+    deparment.value,
+    city.value,
+    state.value,
+    zipCode.value,
+    phoneNumber.value,
+    mail.value,
+    gridCheck.value
   );
-  alert("Su información ha sido enviada, pronto un asesor se pondrá en contacto.")
+
+  const confirmForm = document.getElementById("confirmForm");
+  confirmForm.innerText = "El formulario ha sido enviado exitosamente.";
+  console.log(confirmForm.innerText);
 };
-informationForm.addEventListener("submit", validateForm);
+
+form.addEventListener("submit", sendForm);

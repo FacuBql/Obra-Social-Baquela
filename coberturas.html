@@ -195,35 +195,35 @@ al igual que una tabla con los montos y un formulario de inscripción -->
     </section>
 
     <!--Formulario de contacto -->
-    <section class="formulario">
+    <section class="formulario" id="formularioRegistro">
       <form class="row g-3" id="form">
         <div class="col-md-5">
           <label for="inputName" class="form-label">Nombre</label>
-          <input type="name" class="form-control" id="inputName" />
+          <input type="name" class="form-control" name="name" />
         </div>
         <div class="col-md-5">
           <label for="inputLastname" class="form-label">Apellido</label>
-          <input type="lastname" class="form-control" id="inputLastname" />
+          <input type="lastname" class="form-control" name="lastName" />
         </div>
         <div class="col-md-4">
           <label for="inputAddress" class="form-label">Dirección</label>
-          <input type="Direccion" class="form-control" id="inputAddress" />
+          <input type="Direccion" class="form-control" name="address" />
         </div>
         <div class="col-md-2">
           <label for="inputFloor" class="form-label">Piso</label>
-          <input type="Floor" class="form-control" id="inputFloor" />
+          <input type="Floor" class="form-control" name="floorNumber" />
         </div>
         <div class="col-md-2">
           <label for="inputDeparment" class="form-label">Departamento</label>
-          <input type="Deparment" class="form-control" id="inputDeparment" />
+          <input type="Deparment" class="form-control" name="deparment" />
         </div>
         <div class="col-md-6">
           <label for="inputCity" class="form-label">Ciudad</label>
-          <input type="Ciudad" class="form-control" id="inputCity" />
+          <input type="Ciudad" class="form-control" name="city" />
         </div>
         <div class="col-md-2">
           <label for="inputState" class="form-label">Provincia</label>
-          <select id="inputState" class="form-select">
+          <select class="form-select" name="state">
             <option selected>Seleccionar...</option>
             <option>Buenos Aires</option>
             <option>Capital Federal</option>
@@ -253,26 +253,31 @@ al igual que una tabla con los montos y un formulario de inscripción -->
         </div>
         <div class="col-md-1">
           <label for="inputZip" class="form-label">CP</label>
-          <input type="text" class="form-control" id="inputZip" />
+          <input type="text" class="form-control" name="zipCode" />
         </div>
         <div class="col-md-4">
           <label for="inputPhonenumber" class="form-label">Teléfonos</label>
-          <input type="Phone" class="form-control" id="inputPhonenumber" />
+          <input type="Phone" class="form-control" name="phoneNumber" />
         </div>
         <div class="col-md-4">
           <label for="inputMail" class="form-label">Mail</label>
-          <input type="Mail" class="form-control" id="inputMail" />
+          <input type="Mail" class="form-control" name="mail" />
         </div>
         <div class="col-12">
           <div class="form-check">
-            <input class="form-check-input" type="checkbox" id="gridCheck" />
+            <input class="form-check-input" type="checkbox" name="gridCheck" />
             <label class="form-check-label" for="gridCheck">
               Quiero recibir novedades y ofertas sobre planes y servicios.
             </label>
           </div>
         </div>
         <div class="col-12">
-          <button type="submit" class="btn btn-cardbtn">Enviar</button>
+          <button type="submit" class="btn btn-cardbtn" id="btnFormulario">
+            Enviar
+          </button>
+        </div>
+        <div>
+         <h3 id="confirmForm"></h3>
         </div>
       </form>
     </section>
@@ -339,6 +344,5 @@ al igual que una tabla con los montos y un formulario de inscripción -->
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-
   </body>
 </html>
