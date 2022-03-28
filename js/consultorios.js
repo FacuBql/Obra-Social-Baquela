@@ -24,14 +24,14 @@ const phoneCenter = [
 
 healthCenter.splice(6);
 
-for (let i = 0; i < healthCenter.length; i++) {
-  console.log(healthCenter[i]);
-}
+const [, , a, , , b] = healthCenter;
+console.log(a);
+console.log(b);
 
-for (let i = 0; i < addressCenter.length; i++) {
-  console.log(addressCenter[i]);
-}
+const [, , a1, , , b1] = addressCenter;
+console.log(a1);
+console.log(b1);
 
-for (let i = 0; i < phoneCenter.length; i++) {
-  console.log(phoneCenter[i]);
-}
+const [, , a2, , , b2] = phoneCenter;
+console.log(a2);
+console.log(b2);
