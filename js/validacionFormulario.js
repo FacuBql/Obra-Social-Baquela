@@ -29,10 +29,6 @@ const sendForm = (event) => {
     mail.value,
     gridCheck.value
   );
-
-  const confirmForm = document.getElementById("confirmForm");
-  confirmForm.innerText = "El formulario ha sido enviado exitosamente.";
-  console.log(confirmForm.innerText);
 };
 
 form.addEventListener("submit", sendForm);
