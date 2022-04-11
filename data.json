@@ -1,0 +1,21 @@
+[
+  {
+    "services": [
+      {
+        "name": "Umbrella Red",
+        "price": 3500,
+        "id": 1
+      },
+      {
+        "name": "Umbrella Blue",
+        "price": 5000,
+        "id": 2
+      },
+      {
+        "name": "Umbrella Gold",
+        "price": 7000,
+        "id": 3
+      }
+    ]
+  }
+]
