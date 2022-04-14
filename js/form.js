@@ -1,11 +1,13 @@
-fetch("https://formsubmit.co/ajax/facubaquela@gmail.com", {
+fetch("https://jsonplaceholder.typicode.com/posts", {
   method: "POST",
-  body: new FormData(),
+  body: JSON.stringify({
+    title: "Información enviada",
+    body: "Su información ha sido cargada exitosamente",
+    usderId: 1,
+  }),
+  headers: {
+    "Content-type": "application/json",
+  },
 })
-  .then((answer) => (answer.ok ? answer.json() : Promise.reject(answer)))
-  .then((json) => {
-    console.log(json);
-  })
-  .catch((error) => {
-    console.log(error);
-  });
+  .then((response) => response.json())
+  .then((data) => console.log(data));
