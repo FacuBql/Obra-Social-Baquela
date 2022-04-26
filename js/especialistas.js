@@ -121,3 +121,4 @@ const localSave = (clave, valor) => {
 localSave("specialistInformation", JSON.stringify(specialists));
 
 console.log(...specialists);
+

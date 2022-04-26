@@ -21,6 +21,16 @@ footer {
   background-color: whitesmoke;
 }
 
+.btn-color {
+  background-color: firebrick;
+  color: whitesmoke;
+  font-family:"Bebas Neue", cursive;
+  padding: 5px;
+  margin: 10px;
+  border: solid 1px tomato;
+
+}
+
 /* Mapa */
 .uye-description {
   background-color: red;
